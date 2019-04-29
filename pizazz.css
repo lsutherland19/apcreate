@@ -4,27 +4,6 @@
   color: white;
 }
 
-.typewriter p {
-  overflow: hidden;
-  border-right: .2em solid #38A89D;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #38A89D; }
-}
-
 button {
   margin: 30px;
   background-color: black;
@@ -33,4 +12,9 @@ button {
   display: inline-block;
   font-size: 16px;
   padding: 20px;
+  align: right;
+}
+
+div {
+  text-align: center;
 }
